@@ -35,14 +35,14 @@ console.log(Math.round(circleSquare));
 alert(`Circle square: ${Math.round(circleSquare)} cm`);
 
 let name = prompt('What`s your name?');
-alert(`Hello, ${name}!`);
-let str =`Hello, ${name}!`;
-console.log(str);
+alert(`Hello, ${name}! How old are you?`);
+//let str =`Hello, ${name}!`;
+//console.log(str);
 
-let year = prompt ('What`s your year of birth?');
+let year = prompt ('Please, enter your year of birth?');
 const currentYear = 2022;
 let bdYear = Number(year);
 console.log(typeof year);
 console.log(typeof bdYear);
 console.log(currentYear - year);
-alert(`Very nice age, ${currentYear - year}!`);
+alert(`${currentYear - year} is very young!`);
