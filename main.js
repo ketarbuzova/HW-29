@@ -1,48 +1,27 @@
-//let carModel = 'Citroen';
-//let carCategory = 'Hatchback';
-//let typeOfFuel = 'Petrol';
-//let carColour = 'Blue';
+let sumOne = 0.1 + 0.2;
+alert(`Correct sum 0.1+0.2 is ${+sumOne.toFixed(2)}`);
 
-//console.log(carModel, carCategory, typeOfFuel, carColour);
+let sumTwo = 1 + 2;
+alert(`Correct sum 1+2 is ${+sumTwo}`);
 
-//let carModel = prompt('car model?');
-//let carCategory = prompt ('car category?');
-//let typeOfFuel = prompt('car fuel?');
-//let carColour = prompt('car colour?');
+let storage = prompt("Enter flash drive size in Gb:");
+const currentFiles = 0.82;
+let yourStorage = Number(storage);
+let filesFit = (storage / currentFiles).toFixed();
+console.log(typeof storage);
+console.log(typeof yourStorage);
+console.log(storage / currentFiles);
+alert(`${filesFit} file(s) fit on flash drive`);
 
-//console.log(carModel, carCategory, typeOfFuel, carColour);
+var rez = prompt("Enter any number");
+alert(rez.split("").reverse().join(""));
 
-//let name = prompt('what`s your name?');
-//alert(`hello ${name}`);
-//let year = prompt ('year of birth');
-//const currentYear = 2022;
-//let bdYear = Number(year);
-//console.log(typeof year);
-//console.log(typeof bdYear);
-//console.log(currentYear - year);
-
-//let square = prompt('what`s the length of the side of the square?');
-//let squareNum = Number(square);
-//console.log(squareNum * 2);
-
-const r = prompt('Enter any number to calculate the radius of the circle');
-const circleLength = 2 * Math.PI * r;
-console.log(Math.round(circleLength));
-alert(`Circle radius: ${Math.round(circleLength)} cm`);
-
-const circleSquare = Math.PI * Math.pow(r, 2);
-console.log(Math.round(circleSquare));
-alert(`Circle square: ${Math.round(circleSquare)} cm`);
-
-let name = prompt('What`s your name?');
-alert(`Hello, ${name}! How old are you?`);
-//let str =`Hello, ${name}!`;
-//console.log(str);
-
-let year = prompt ('Please, enter your year of birth?');
-const currentYear = 2022;
-let bdYear = Number(year);
-console.log(typeof year);
-console.log(typeof bdYear);
-console.log(currentYear - year);
-alert(`${currentYear - year} is very young!`);
+/*let money = prompt("Enter how money do you have:");
+const chocolatePrice = 30;
+let yourWallet = Number(money);
+let canBuy = (yourWallet / chocolatePrice).toFixed();
+let change = ((yourWallet - canBuy).toFixed(2));
+console.log(typeof money);
+console.log(typeof yourWallet);
+console.log(yourWallet / chocolatePrice);
+alert(`${filesFit} chocolate(s) you can buy and chanche will be ${change}`);*/
